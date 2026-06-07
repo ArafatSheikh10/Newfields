@@ -1,0 +1,732 @@
+/* XL Device :1200px. */
+
+@media screen and (max-width: 1620px) {
+
+    .about__image--1 {
+        transform: scaleX(1.2);
+    }
+
+}
+
+@media screen and (max-width: 1449px) {
+
+    h2 {
+        font-size: 55px;
+    }
+
+    .about__image--1 {
+        transform: scaleX(1.1) translateX(-67px);
+    }
+
+    .about__image--1 {
+        height: 710px;
+    }
+
+    .about__image--2 {
+        max-width: 387px;
+        height: 468px;
+    }
+
+    .testiomonial__info--avater {
+        transform: scale(1.5) translateX(-12px);
+    }
+
+
+
+}
+
+
+/* LG Device :992px. */
+
+@media screen and (max-width: 1199px) {
+
+    h2 {
+        font-size: 48px;
+    }
+
+    .section__caption {
+        font-size: 22px;
+    }
+
+    .primary__btn {
+        font-size: 16px;
+        padding: 14px 38px 17px 32px;
+    }
+
+    .hero__text--box h1 {
+        font-size: 68px;
+    }
+
+    .hero__text--box p {
+        font-size: 18px;
+    }
+
+    .about__area {
+        padding: 78px 0 90px;
+    }
+
+    .about__content p {
+        margin: 22px 0;
+    }
+
+    .about__image--1 {
+        transform: scaleX(1.1) translateX(-54px);
+        height: 640px;
+    }
+
+    .about__image--2 {
+        height: 410px;
+    }
+
+    .exhibitions__count--icon {
+        width: 150px;
+        height: 112px;
+    }
+
+    .exhibitions__count--icon img {
+        width: 40%;
+    }
+
+    .exhibitions__count--content h3 {
+        font-size: 65px;
+    }
+
+    .exhibitions__count--content p {
+        font-size: 20px;
+    }
+
+    .exhibitions__wraper {
+        margin-top: 90px;
+    }
+
+    .exhibitions__card--image {
+        height: 420px;
+    }
+
+    .exhibitions__card--content h3 {
+        font-size: 28px;
+    }
+
+    .feature__area {
+        padding: 150px 0 0px;
+    }
+
+    .feature__area--2 {
+        padding: 140px 0 90px;
+    }
+
+    .feature__image {
+        height: 670px;
+    }
+
+    .feature__area .container::after {
+        top: -73px;
+        height: 680px;
+    }
+
+    .feature__content ul {
+        margin-top: 22px;
+    }
+
+    .feature__content p {
+        font-size: 25px;
+    }
+
+    .testiomonial__area {
+        padding: 82px 0 115px;
+    }
+
+    .testiomonial__box {
+        padding: 42px 50px 22px 44px;
+        border-top-left-radius: 56px;
+        border-bottom-right-radius: 56px;
+    }
+
+    .testiomonial__box p {
+        font-size: 18px;
+    }
+
+    .testiomonial__info {
+        margin-top: 48px;
+    }
+
+    .testiomonial__info--avater {
+        transform: scale(1.4) translateX(-12px);
+    }
+
+    .testiomonial__info--content {
+        padding-left: 0;
+    }
+
+    .testiomonial__info--content h3 {
+        font-size: 32px;
+    }
+
+    .testiomonial__info--content span {
+        font-size: 18px;
+    }
+
+    .testiomonial__image--box {
+        height: 462px;
+        transform: translateY(250px);
+    }
+
+    .common__card {
+        grid-template-columns: 1fr 1fr;
+        overflow: hidden;
+    }
+
+    .common__card--image {
+        height: 400px;
+    }
+
+    .full__width--card .common__card--image {
+        height: 100%;
+    }
+
+    .full__width--card .common__card--content {
+        padding: 39px 50px 44px 44px;
+    }
+
+    .common__card--content .read__more {
+        margin-bottom: 30px;
+    }
+
+    .half__width--card{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: start;
+        height: 100%;
+    }
+
+    .blog__area {
+        padding: 146px 0 70px;
+    }
+
+    .contact__content h3 {
+        font-size: 35px;
+    }
+
+    .news__area {
+        padding-top: 85px;
+    }
+
+
+}
+
+
+/* MD Device :768px. */
+
+@media screen and (max-width: 991px) {
+
+    h2 {
+        font-size: 42px;
+    }
+
+    .primary__btn {
+        font-size: 15px;
+        padding: 14px 37px 13px 30px;
+    }
+
+    .header__top--left p {
+        font-size: 16px;
+    }
+
+    .header__main {
+        padding: 20px 0px;
+    }
+
+    .header__logo a {
+        width: 238px;
+        height: 52px;
+    }
+
+    .header__menu ul {
+        gap: 20px 36px;
+    }
+
+    .header__menu ul li a {
+        font-size: 15px;
+    }
+
+    .header__top--right ul li a img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .hero__area {
+        padding: 292px 0 90px;
+    }
+
+    .hero__text--box h1 {
+        font-size: 49px;
+    }
+
+    .hero__text--box p {
+        font-size: 17px;
+    }
+
+    .about__area {
+        padding: 78px 0 70px;
+    }
+
+    .about__image--1 {
+        transform: scaleX(1) translateX(0);
+        height: 472px;
+    }
+
+    .about__images {
+        position: relative;
+        height: fit-content;
+        margin-top: 0;
+        transform: translateX(0);
+    }
+
+    .about__image--2 {
+        height: 347px;
+        left: -10px;
+    }
+
+    .about__content {
+        padding-right: 0;
+        padding-top: 100px;
+    }
+
+    .about__content p {
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+
+    .exhibitions__area::after {
+        height: 562px;
+        top: 10%;
+    }
+
+    .exhibitions__card--wraper {
+        margin-top: 0;
+    }
+
+    .exhibitions__count--icon {
+        width: 140px;
+        height: 102px;
+    }
+
+    .exhibitions__count--content h3 {
+        font-size: 54px;
+    }
+
+    .exhibitions__count--content p {
+        font-size: 18px;
+    }
+
+    .exhibitions__card--image {
+        height: 305px;
+    }
+
+    .exhibitions__card--content h3 {
+        font-size: 20px;
+    }
+
+    .feature__area .container::after {
+        height: 556px;
+    }
+
+    .feature__image {
+        height: 530px;
+    }
+
+    .feature__content ul li {
+        font-size: 21px;
+    }
+
+    .feature__content p {
+        font-size: 18px;
+    }
+
+    .testiomonial__area {
+        padding: 82px 0 86px;
+    }
+
+    .testiomonial__image--box {
+        height: 462px;
+        transform: translateY(0);
+        margin-top: 57px;
+    }
+
+    .blog__area {
+        padding: 82px 0 70px;
+    }
+
+    .full__width--card .common__card--content {
+        padding: 39px 37px 29px 32px;
+    }
+
+    .common__card--content h3 {
+        font-size: 26px;
+    }
+
+    .contact__content {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .contact__area form {
+        margin: auto;
+    }
+
+    .contact__area form input {
+        padding: 20px 20px 22px 20px;
+    }
+
+    .form__submit {
+        padding: 20px 58px;
+    }
+
+    .footer__area {
+        padding: 66px 0 36px;
+    }
+
+    .footer__item {
+        gap: 10px;
+    }
+
+    .footer__item p{
+        padding-right: 400px;
+    }
+
+    .footer__social li a {
+        width: 52px;
+        height: 52px;
+    }
+
+    .footer__item h4 {
+        font-size: 20px;
+    }
+
+    .footer__menu li a {
+        font-size: 16px;;
+    }
+
+    .footer__menu li {
+        font-size: 15px;
+    }
+
+}
+
+
+/* SM Small Device :320px. */
+
+@media screen and (max-width: 767px) {
+
+    .section__caption {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .header__top {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .header__top--left p {
+        font-size: 14px;
+    }
+
+    .header__top--right ul {
+        gap: 20px;
+        transform: translateY(-3px);
+    }
+
+    .header__top--right ul li a img {
+        width: 17px;
+        height: 17px;
+    }
+
+    .header__logo a {
+        width: 134px;
+        height: 32px;
+    }
+
+    .header__menu {
+        justify-content: flex-end;
+        margin-top: 0;
+    }
+
+    .header__menu ul {
+        display: none;
+    }
+
+    .menu__trigger {
+        display: block;
+    }
+
+    .hero__area {
+        padding: 174px 0 40px;
+    }
+
+    .hero__text--box {
+        padding: 30px 30px 40px 28px;
+    }
+
+    .hero__text--box h1 {
+        font-size: 34px;
+    }
+
+    .hero__text--box p {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .primary__btn {
+        font-size: 13px;
+        padding: 10px 30px 10px 24px;
+    }
+
+    .hero__social-area {
+        justify-content: center;
+    }
+
+    .hero__social-area ul {
+        gap: 22px;
+        padding: 20px 30px 23px;
+        border-radius: 12px;
+        flex-direction: row;
+    }
+
+    .hero__social-area ul li a {
+        font-size: 18px;
+    }
+
+    .about__area {
+        padding: 60px 0 60px;
+    }
+
+    .about__image--1 {
+        height: 320px;
+    }
+
+    .about__image--2 {
+        height: 255px;
+    }
+
+    .about__content p {
+        font-size: 16px;
+        padding-right: 0;
+        margin: 12px 0;
+    }
+
+    .exhibitions__area::after {
+        height: 664px;
+    }
+
+    .exhibitions__count--icon {
+        width: 122px;
+        height: 85px;
+    }
+
+    .exhibitions__count--content h3 {
+        font-size: 44px;
+    }
+
+    .exhibitions__count--content p {
+        font-size: 16px;
+    }
+
+    .exhibitions__card--image {
+        height: 273px;
+    }
+
+    .feature__area {
+        padding: 120px 0 0px;
+    }
+
+    .feature__area .container::after {
+        height: 384px;
+        top: -58px;
+        border-bottom-left-radius: 55px;
+        border-bottom-right-radius: 55px;
+    }
+
+    .feature__image {
+        height: 334px;
+    }
+
+    .feature__content {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .feature__content ul li {
+        font-size: 18px;
+    }
+
+    .feature__area--2 {
+        padding: 120px 0 70px;
+    }
+
+    .feature__area--2 .container::after {
+        height: 447px;
+        top: -31px;
+    }
+
+    .feature__area--2 .feature__content {
+        padding-left: 11px;
+    }
+
+    .feature__content p {
+        font-size: 16px;
+    }
+
+    .testiomonial__area {
+        padding: 60px 0 60px;
+    }
+
+    .testiomonial__box {
+        padding: 30px 28px 16px 24px;
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+
+    .testiomonial__box p {
+        font-size: 16px;
+    }
+
+    .testiomonial__info {
+        gap: 10px;
+        margin-top: 50px;
+    }
+
+    .testiomonial__info--avater {
+        transform: scale(1) translateX(-12px);
+    }
+    
+    .testiomonial__info--content h3 {
+        font-size: 25px;
+    }
+
+    .testiomonial__info--content span {
+        font-size: 16px;
+    }
+
+    .testiomonial__image--box {
+        height: 300px;
+        margin-top: 57px;
+    }
+
+    .blog__area {
+        padding: 60px 0 60px;
+    }
+
+    .common__card--image {
+        height: 280px;
+    }
+
+    .full__width--card .common__card--content {
+        padding: 30px 37px 29px 18px;
+    }
+
+    .common__card--content h3 {
+        font-size: 25px;
+    }
+
+    .common__card--content p {
+        font-size: 15px;
+        margin: 15px 0 18px;
+    }
+
+    .common__metadata ul {
+        gap: 20px 40px;
+    }
+
+    .common__metadata ul li a {
+        gap: 9px;
+        font-size: 13px;
+    }
+
+    .common__metadata ul li a i {
+        font-size: 17px;
+    }
+
+    .half__width--card .common__card--content {
+        padding: 30px 20px 30px 12px;
+    }
+
+    .half__width--card .common__card--content ul {
+        flex-direction: row;
+    }
+
+    .contact__box {
+        padding: 32px 20px 31px 20px;
+    }
+
+    .common__card--content h3 {
+        font-size: 23px;
+    }
+
+    .contact__content h3 {
+        font-size: 30px;
+    }
+
+    .contact__area form input {
+        padding: 16px 15px 18px 20px;
+        font-size: 15px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .form__submit {
+        padding: 15px 20px;
+        border-bottom-right-radius: 19px;
+    }
+
+    .form__submit img {
+        width: 23px;
+        height: 23px;
+    }
+
+    .footer__area {
+        padding: 56px 0 36px;
+    }
+
+    .footer__logo {
+        width: 184px;
+        height: 49px;
+    }
+
+    .footer__item p {
+        padding-right: 0;
+    }
+
+    .footer__social {
+        margin-top: 34px;
+    }
+
+    .footer__social li a {
+        font-size: 18px;
+        width: 46px;
+        height: 46px;
+    }
+
+    .footer__menu {
+        gap: 10px;
+        margin-top: 15px;
+    }
+    
+
+}
+
+
+/* SM Small Device :550px. */
+
+@media (min-width: 575px) and (max-width: 767px){
+
+    .exhibitions__area::after {
+        height: 770px;
+    }
+    
+}
+
+
+
