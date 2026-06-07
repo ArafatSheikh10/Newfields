@@ -760,7 +760,7 @@ p{
 /* TESTIOMONIAL AREA START */
 
 .testiomonial__area{
-  padding: 82px 0 168px;
+  padding: 82px 0 90px;
   background-image: url(../img/testiomonail-bg.png);
   background-position: center;
   background-size: cover;
@@ -774,10 +774,12 @@ p{
 }
 
 .testiomonial__box-inner{
-  padding: 0 0 60px 60px;
+  padding-left: 60px;
+  padding-bottom: 60px;
 }
 
 .testiomonial__box{
+  max-width: 688px;
   position: relative;
   background-color: #D0DEBB;
   padding: 48px 75px 22px 50px;
@@ -863,7 +865,7 @@ p{
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
   overflow: hidden;
-  transform: translateY(282px);
+  transform: translateY(310px);
 }
 
 .testiomonial__image--box img{
