@@ -725,6 +725,10 @@
     .exhibitions__area::after {
         height: 770px;
     }
+
+    .footer__item p {
+        padding-right: 300px;
+    }
     
 }
 
