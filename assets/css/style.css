@@ -157,6 +157,121 @@ p{
 }
 
 
+/* -- SEARCH MODAL START -- */
+
+.search__modal--wraper {
+  top: 20%;
+
+}
+
+.search__modal{
+  max-width: 500px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 16px;
+  padding: 30px 0;
+  z-index: 1001;
+  transition: all .5s ease-in-out;
+}
+
+.search__modal form{
+  width: 80%;
+  position: relative;
+}
+
+.search__logo--wraper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  margin-bottom: 30px;
+}
+
+.search__logo a{
+  display: inline-block;
+  width: 140px;
+}
+
+.search__logo a img{
+  filter: brightness(0);
+  filter: invert(1);
+}
+
+.search__modal form input{
+  width: 100%;
+  padding: 15px 25px 15px 40px;
+  border: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: #D0DEBB;
+  border-radius: 30px;
+  color: #000;
+  font-size: 16px;
+}
+
+.search__modal form input::placeholder{
+  color: #000;
+  font-size: 16px;
+}
+
+.search__icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  color: #D0DEBB;
+}
+
+.search__submit-btn {
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #000;
+  border: 2px solid #000;
+  padding: 8px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 30px;
+  transition: all .3s ease-in-out;
+}
+
+.search__submit-btn:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+.search__submit-btn{
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: 2px solid #000;
+}
+
+.search__modal-close{
+  text-align: end;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  color: #000;
+}
+
+.search__modal-close:hover{
+  color: #D0DEBB;
+}
+
+/* -- SEARCH MODAL END -- */
+
+
+
 /* HEADER AREA START */
 
 .header__area{
