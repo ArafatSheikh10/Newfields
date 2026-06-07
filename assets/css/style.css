@@ -269,6 +269,11 @@ p{
 
 .mobail__menu li a{
   color: #fff;
+  transition: all .3s ease-in-out;
+}
+
+.mobail__menu li a:hover{
+  color: #D4AF65;
 }
 
 .btn-close {
