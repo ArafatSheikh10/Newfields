@@ -28,7 +28,11 @@
     }
 
     .testiomonial__info--avater {
-        transform: scale(1.5) translateX(-12px);
+        position: absolute;
+        left: -34px;
+        bottom: -21px;
+        width: 180px;
+        height: 180px;
     }
 
 
@@ -151,11 +155,15 @@
     }
 
     .testiomonial__info--avater {
-        transform: scale(1.4) translateX(-12px);
+        position: absolute;
+        left: -30px;
+        bottom: -21px;
+        width: 165px;
+        height: 165px;
     }
 
     .testiomonial__info--content {
-        padding-left: 0;
+        padding-left: 125px;
     }
 
     .testiomonial__info--content h3 {
@@ -164,6 +172,11 @@
 
     .testiomonial__info--content span {
         font-size: 18px;
+    }
+
+    .testiomonial__quote {
+        width: 118px !important;
+        height: 90px;
     }
 
     .testiomonial__image--box {
@@ -346,11 +359,23 @@
     .testiomonial__area {
         padding: 82px 0 86px;
     }
+    
+    .testiomonial__box--wraper {
+        left: -60px;
+    }
+
+    .testiomonial__info--avater {
+        position: absolute;
+        left: -26px;
+        bottom: -26px;
+        width: 148px;
+        height: 148px;
+    }
 
     .testiomonial__image--box {
         height: 462px;
         transform: translateY(0);
-        margin-top: 57px;
+        margin-top: 0;
     }
 
     .blog__area {
@@ -426,6 +451,11 @@
         font-size: 30px;
     }
 
+    .primary__btn {
+        font-size: 13px;
+        padding: 15px 32px 15px 30px;
+    }
+
     .header__top {
         padding: 10px 0;
     }
@@ -477,11 +507,6 @@
     .hero__text--box p {
         font-size: 16px;
         margin-top: 15px;
-    }
-
-    .primary__btn {
-        font-size: 13px;
-        padding: 10px 30px 10px 24px;
     }
 
     .hero__social-area {
@@ -604,7 +629,15 @@
     }
 
     .testiomonial__info--avater {
-        transform: scale(1) translateX(-12px);
+        position: absolute;
+        left: -26px;
+        bottom: -12px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .testiomonial__info--content {
+        padding-left: 77px;
     }
     
     .testiomonial__info--content h3 {
@@ -615,9 +648,17 @@
         font-size: 16px;
     }
 
+    .testiomonial__quote {
+        position: absolute;
+        bottom: 45px;
+        right: 37px;
+        width: 90px !important;
+        height: 90px;
+    }
+
     .testiomonial__image--box {
         height: 300px;
-        margin-top: 57px;
+        margin-top: 0;
     }
 
     .blog__area {
@@ -733,6 +774,14 @@
 
     .exhibitions__area::after {
         height: 770px;
+    }
+
+    .testiomonial__info--avater {
+        position: absolute;
+        left: -17px;
+        bottom: -25px;
+        width: 127px;
+        height: 127px;
     }
 
     .footer__item p {

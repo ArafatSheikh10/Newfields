@@ -28,6 +28,18 @@
         });
 
 
+        // Testiomonial Slider
+
+        $('.testiomonial__box--wraper').owlCarousel({
+            items: 1,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            autoplayHoverPause: true,
+            smartSpeed: 1200,
+            animateOut: 'fadeOut'
+        });
+
 
 
 
